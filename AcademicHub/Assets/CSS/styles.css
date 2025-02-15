@@ -429,7 +429,7 @@ footer {
     }
 
     .text a {
-        color: #ff8a04;
+        color: #ffb663;
     }
 
     ul li a:hover {
@@ -439,6 +439,11 @@ footer {
     .Usefull {
         ul {
             list-style: none;
+        }
+
+        ul li i {
+            color: rgb(248, 189, 79);
+            margin-right: 10px;
         }
 
         .icons {
