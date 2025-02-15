@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background: #f1f6fa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,6 +31,9 @@ header {
     width: 100%;
     z-index: 1000;
 }
+
+
+
 
 /* Navbar Container */
 .navbar {
@@ -186,6 +190,32 @@ header {
             margin-left: 5px;
             font-size: 20px;
             font-weight: bold;
+        }
+    }
+
+    #typing-animation {
+        color: #4FC3F7;
+        letter-spacing: 2px;
+        font-size: 2rem;
+        animation: type 5s steps(11) infinite;
+
+    }
+    .typing {
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #3333);
+    }
+    
+    
+    
+    @keyframes type {
+    
+        0%,
+        100% {
+            width: 0px;
+        }
+    
+        30%,
+        60% {
+            width: 394.09px;
         }
     }
 }
@@ -397,6 +427,7 @@ header {
         }
     }
 }
+
 /* ------------ course end --------------- */
 
 
@@ -407,6 +438,7 @@ header {
         color: #1e3262;
         margin: 20px 0;
     }
+
     .buttons {
         a i {
             font-size: 25px;
@@ -414,6 +446,7 @@ header {
             margin-right: 10px;
         }
     }
+
     .card {
         img {
             width: 70px;
@@ -423,6 +456,7 @@ header {
             margin-bottom: 0;
             box-shadow: 0px 0px 5px lightslategray;
         }
+
         .rating {
             color: #f4b400;
             font-size: 18px;
@@ -550,27 +584,28 @@ footer {
 .about-section {
     padding: 50px 20px;
 
-    h1, h2 {
+    h1,
+    h2 {
         color: #2c3e50;
     }
-    
+
     ul {
         text-align: left;
         display: inline-block;
         margin: 20px 0;
         padding-left: 20px;
     }
-    
+
     ul li {
         margin-bottom: 10px;
     }
-    
+
     .cta {
         font-size: 18px;
         font-weight: bold;
         color: #1e90ff;
     }
-    
+
 }
 
 
@@ -587,12 +622,12 @@ footer {
         border: none;
         padding: 10px 0;
     }
- 
+
     .accordion-item {
         border-radius: 10px;
-        border: 1   px solid rgba(124, 124, 124, 0.281);
+        border: 1 px solid rgba(124, 124, 124, 0.281);
     }
-    
+
     .accordion-header {
         background: #e0f0fa;
         border-radius: 10px;
@@ -607,7 +642,7 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .accordion-content {
         padding: 10px 30px;
         display: none;
@@ -615,11 +650,11 @@ footer {
         letter-spacing: .25px;
         color: #504f4fd3;
     }
-    
+
     .accordion-item.active .accordion-content {
         display: block;
     }
-    
+
     .icon {
         font-size: 30px;
         font-weight: bold;
@@ -633,9 +668,11 @@ footer {
         background-size: cover;
         border-radius: 20px;
         padding: 60px;
+
         h1 {
             color: #fff;
         }
+
         .btn {
             padding: 10px 25px;
             font-size: 20px;
@@ -662,19 +699,20 @@ footer {
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         text-align: left;
     }
-    
-    h1, h2 {
+
+    h1,
+    h2 {
         color: #2c3e50;
     }
-    
+
     ul {
         padding-left: 20px;
     }
-    
+
     ul li {
         margin-bottom: 10px;
     }
-    
+
     .cta {
         font-size: 18px;
         font-weight: bold;
@@ -698,6 +736,7 @@ footer {
     .main {
         display: flex;
     }
+
     h1 {
         color: #1e3262;
         margin-bottom: 10px;
@@ -715,9 +754,11 @@ footer {
             font-size: 20px;
         }
 
-        input, select, textarea {
+        input,
+        select,
+        textarea {
             width: 100%;
-            padding:15px;
+            padding: 15px;
             margin-top: 8px;
             border: 1px solid #ccc;
             border-radius: 8px;
@@ -777,7 +818,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
 
 
 
@@ -789,24 +830,29 @@ footer {
         background: #fff;
         box-shadow: 0px 3px 6px rgb(219, 219, 219);
     }
+
     h2 {
         color: #1e3262;
         text-decoration: underline;
     }
+
     .buttons {
         display: inline-flex;
+
         .form-select {
             cursor: pointer;
             width: 200px;
             margin: 0 10px;
         }
     }
+
     .btn-primary {
         padding: 8px 20px;
         font-size: 18px;
         align-items: center;
         cursor: pointer;
     }
+
     .btn-primary:hover {
         transform: scale(.95);
     }
@@ -820,11 +866,11 @@ footer {
 /* ----------- subject ------ */
 
 .subject {
-    
+
     .card-body {
         img {
             padding: 3px;
-            margin-bottom: 10px ;
+            margin-bottom: 10px;
             width: 100%;
             height: 250px;
             border-radius: 20px;
@@ -895,6 +941,3 @@ footer {
         /* Show menu icon */
     }
 }
-
-
-

@@ -71,6 +71,9 @@
         <div class="col-md-6">
           <div class="banner-heading text-light">
             <h1>The Best Online Learning Plotform for <strong><span>A</span>cademics</strong></h1>
+            <div class="typing py-3">
+              <span id="typing-animation"></span>
+          </div>
             <p>The Learning Hub offers personalised support, workshops and online resources to help you develop the
               skills you need to succeed at any stage of your studies.</p>
             <div class="buttons mt-4">
@@ -347,10 +350,31 @@
     });
   </script>
 
+<!-- ----------- text animation -------------- -->
+<script>
+  const typingAnimationElement = document.getElementById('typing-animation');
+  const typingTexts = [
+      'Btech  ',
+      'Degree',
+  ];
+  function playTypingAnimation(text) {
+      for (let i = 0; i < text.length; i++) {
+          setTimeout(() => {
+              typingAnimationElement.textContent += text[i];
+          }, i * 500);
+      }
+      setTimeout(() => {
+          typingAnimationElement.textContent = '';
+          playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+      }, text.length * 500);
+  }
+  playTypingAnimation(typingTexts[0]);
+</script>
+
   <!-- ------- login start ---------- -->
   <script>
     function loadModal(page) {
-      document.body.style.overflow = "hidden"; // Disable background scrolling
+      document.body.style.overflow = "hidden";
       fetch(page)
         .then(response => response.text())
         .then(html => {
@@ -359,7 +383,7 @@
     }
 
     function closeModal() {
-      document.body.style.overflow = ""; // Re-enable background scrolling
+      document.body.style.overflow = ""; 
       document.getElementById("modal-container").innerHTML = "";
     }
 
