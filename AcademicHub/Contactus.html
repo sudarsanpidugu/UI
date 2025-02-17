@@ -28,22 +28,36 @@
 
       <span class="menu-toggle">&#9776;</span> <!-- Hamburger Icon -->
       <ul class="navbar-nav">
-        <li class="nav-item active"><a class="nav-link active" href="/index.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link active" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="/AboutUs.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Testimonilas</a></li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="nav-link btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Academics
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="/Branch.html">BTech</a></li>
+              <li><a class="dropdown-item" href="/Branch.html">Degree</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/testimonials.html">Testimonilas</a></li>
         <li class="nav-item"><a class="nav-link" href="/Contactus.html">Contact Us</a></li>
       </ul>
+
       <ul class="navbar-nav buttons">
+        <div id="modal-container"></div>
         <li class="nav-item">
-          <a class="nav-link Sign" href="#">Sign Up</a>
+          <a class="nav-link Sign" onclick="loadModal('signup.html')" href="#">Sign Up</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link Login" href="#">Log in</a>
+          <a class="nav-link Login" onclick="loadModal('login.html')" href="#">Log in</a>
         </li>
       </ul>
     </div>
   </header>
-
   <!-- ------------- navbar end -------------- -->
 
 
@@ -66,7 +80,7 @@
                 <img src="Assets/img/banner/png/contact.webp">
               </div>
               <div class="carousel-item">
-                <img src="Assets/img/banner/png/contact.webp">
+                <img src="Assets/img/banner/png/bb.png">
               </div>
             </div>
           </div>
@@ -86,18 +100,19 @@
     <div class="container">
       <h1>Contact Us</h1>
 
-      <div class="main">
-        <form action="#">
-    
+      <div class=" row">
+        <div class="main col-md-5">
+          <form action="#">
+
             <label for="#">Name</label>
             <input type="text" placeholder="Enter your Name...">
-    
+
             <label for="#">Email Address</label>
             <input type="email" placeholder="Enter your Email Adders...">
-    
+
             <label for="#">Contact Number</label>
             <input type="number" placeholder="091800000000">
-    
+
             <label for="subject">Subject</label>
             <select name="cars" class="form-select" id="subject">
               <option value="">Select Subject</option>
@@ -105,7 +120,7 @@
               <option value="saab">English</option>
               <option value="opel">Computer</option>
             </select>
-    
+
             <label for="#">Message</label>
             <textarea name="message" placeholder="Enter your message here..."></textarea>
             <div class="buttons">
@@ -113,13 +128,44 @@
               <button type="reset" class="btn btn-outline-warning mx-3">Reset</button>
             </div>
           </form>
-    
-          <div>
-            asdf
-    
+        </div>
+
+
+        <div class="col-md-6 right align-self-center">
+          <div class="card-warap d-flex">
+
+          <div class="card ">
+            <div class="card-body">
+              <!-- <img src="/Assets/img/courses/physic.avif" alt=""> -->
+              <h4 class="text-center text-secondary">Physics</h4>
+            </div>
           </div>
+          <div class="card ">
+            <div class="card-body">
+              <!-- <img src="/Assets/img/courses/physic.avif" alt=""> -->
+              <h4 class="text-center text-secondary">Physics</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card-warap d-flex py-4">
+
+          <div class="card ">
+            <div class="card-body">
+              <!-- <img src="/Assets/img/courses/physic.avif" alt=""> -->
+              <h4 class="text-center text-secondary">Physics</h4>
+            </div>
+          </div>
+          <div class="card ">
+            <div class="card-body">
+              <!-- <img src="/Assets/img/courses/physic.avif" alt=""> -->
+              <h4 class="text-center text-secondary">Physics</h4>
+            </div>
+          </div>
+        </div>
+        <img class="contact-banner" src="/Assets/img/courses/smiling-girl-student-wear-wireless-260nw-1492613150.webp" alt="">
+        </div>
       </div>
-      
+
     </div>
   </section>
 
@@ -128,7 +174,7 @@
 
 
 
- 
+
   <!-- -- footer start ---- -->
   <footer>
     <div class="container">
