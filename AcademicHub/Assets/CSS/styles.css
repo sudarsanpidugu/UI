@@ -221,17 +221,30 @@ header {
 }
 
 .banner .banner-img {
-    background: url(../img/banner/png/R.png);
+    background: url(../img/banner/bg/Background\ 1.2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
 
     img {
+        width: 100%;
         margin: auto;
         margin-top: 60px;
     }
 }
 
+
+.banner-img1 {
+    background: url(../img/banner/bg/Background\ 1.3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+    img {
+        width: 100%;
+        margin: auto;
+    }
+}
 
 @keyframes blink {
     0% {
@@ -901,7 +914,17 @@ footer {
 }
 
 
+/* --------------- subject end --------  */
 
+
+
+
+
+/* --------------- lms page ---------------- */
+
+.lms {
+    margin-top: 80px;
+}
 
 
 
