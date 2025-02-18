@@ -898,7 +898,7 @@ footer {
     background: url(/Assets/img/courses/19566.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 
     h2 {
         color: #1e3262;
@@ -908,13 +908,14 @@ footer {
     .buttons {
         /* display: inline-flex; */
         justify-items: center;
+
         .form-select {
             box-shadow: 0px 0px 4px;
             width: 600px;
             font-weight: bold;
             cursor: pointer;
             height: 75px;
-            margin: 15px 10px;
+            margin: 20px 10px;
             font-size: 22px;
         }
     }
@@ -1133,7 +1134,116 @@ footer {
 
 
 
+/* ------------ check out -------------- */
 
+.checkout {
+    margin-top: 70px;
+
+    .header {
+        padding: 30px 0;
+
+        .bi-book-half {
+            font-size: 40px;
+            color: rgb(0, 110, 255);
+        }
+
+        a {
+            align-items: center;
+            color: rgb(0, 110, 255);
+            font-size: 25px;
+            cursor: pointer;
+            text-shadow: 1px 2px 3px rgba(14, 14, 14, 0.253);
+
+        }
+
+        i {
+            font-weight: bold;
+            margin-right: 5px;
+            font-size: 30px;
+        }
+    }
+
+    .card {
+        width: 80%;
+        justify-self: center;
+
+        table {
+            width: 100%;
+
+            thead {
+                border-bottom: 2px solid lightgray;
+                background: rgb(168, 180, 192);
+
+                th {
+                    padding: 15px 20px;
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+
+            tbody {
+                align-items: center;
+
+                td {
+                    img {
+                        border-radius: 10px;
+                        margin-right: 10px;
+                        width: 20%;
+                    }
+                    span {
+                        font-weight: 600;
+                        font-size: 20px;
+                        letter-spacing: .25px;
+                    }
+
+                    padding: 15px 20px;
+                    font-size: 20px;
+                }
+            }
+            tfoot {
+                border-top: 2px solid lightgray;
+                span {
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .coupon {   
+        margin: 30px 0;
+        span {
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            a {
+                margin-left: 10px;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+    .payment {
+        .content {
+            margin: 20px;
+        }
+        span {
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            a {
+                margin-left: 10px;
+            }
+        }
+
+        .btn {
+            margin-top: 10px;
+            width: 20%;
+            font-size: 22px;
+        } 
+    }
+}
 
 
 
