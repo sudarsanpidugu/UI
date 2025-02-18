@@ -77,6 +77,17 @@
                             knowledge
                             of computer science, mathematics, and financial engineering.</p>
                     </div>
+                    <div class="comments">
+                        <h1 class="mb-4 text-center">Comments</h1>
+                        <div class="comment-form mb-4">
+                            <textarea id="commentText" class="form-control" rows="2"
+                                placeholder="Write a comment..."></textarea>
+                            <button class="btn btn-primary mt-2" onclick="postComment()">Post Comment</button>
+                        </div>
+                        <div id="commentsList" class="comments-list">
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="col-md-5 intro ">
@@ -223,6 +234,7 @@
 
 
 
+
     <!-- ---------- footer start ------------- -->
     <footer>
         <div class="container mt-5">
@@ -326,6 +338,29 @@
         });
 
     </script>
+
+    <!-- ------------------ comments ------------ -->
+
+    <script>
+        function postComment() {
+            let commentText = document.getElementById("commentText").value;
+            if (commentText.trim() === "") {
+                alert("Please enter a comment.");
+                return;
+            }
+
+            let commentList = document.getElementById("commentsList");
+            let commentDiv = document.createElement("div");
+            commentDiv.classList.add("comment", "border", "p-3", "mb-2", "rounded");
+            commentDiv.innerHTML = `<p><strong>User:</strong> ${commentText}</p>`;
+
+            commentList.prepend(commentDiv); // Add new comment at the top
+            document.getElementById("commentText").value = ""; // Clear the textarea
+        }
+    </script>
+
+
+
 
 
     <script>
