@@ -222,7 +222,7 @@ header {
 }
 
 .banner .banner-img {
-    background: url(../img/banner/bg/Background\ 1.2.png);
+    background: url(../img/banner/Backgrounds/1.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -263,10 +263,11 @@ header {
 }
 
 .banner1 .banner-img {
-    background: url(../img/banner/bg/Background\ 1.2.png);
+    background-image: url(../img/banner/Backgrounds/1.svg);
+    /* background: url(../img/banner/bg/Background\ 1.2.png); */
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    /* background-position: center; */
 
     img {
         width: 100%;
@@ -1224,7 +1225,6 @@ footer {
 
     }
 
-    .payment {
         .content {
             margin: 20px;
         }

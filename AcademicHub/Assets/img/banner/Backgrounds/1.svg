@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1333 1609">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 60)  -->
+  <defs>
+    <linearGradient id="linear-gradient" x1="2036.173" y1="1517.004" x2="2389.148" y2="1517.004" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".09" stop-color="#fff" stop-opacity=".974"/>
+      <stop offset=".217" stop-color="#fff" stop-opacity=".902"/>
+      <stop offset=".365" stop-color="#fff" stop-opacity=".784"/>
+      <stop offset=".53" stop-color="#fff" stop-opacity=".62"/>
+      <stop offset=".708" stop-color="#fff" stop-opacity=".408"/>
+      <stop offset=".895" stop-color="#fff" stop-opacity=".155"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="227.18" y="91.473" width="524" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient1" x1="2342.43" y1="1496.755" x2="2695.405" y2="1496.755" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-2" x="577.18" y="68.473" width="524" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur1" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur1" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient2" x1="2133.473" y1="1357.264" x2="1846.351" y2="1973.655" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-3" x="-34.82" y="278.473" width="524" height="722" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur2" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient3" x1="2170.145" y1="1907.661" x2="1925.169" y2="2460.831" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-4" x="31.18" y="870.473" width="524" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur3" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-5" x="373.183" y="548.476" width="153" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur4" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-6" x="812.183" y="380.476" width="153" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur5" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-7" x="809.183" y="1041.476" width="153" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur6" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-8" x="147.183" y="847.476" width="153" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur7" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient4" x1="2071.755" y1="2554.581" x2="2358.877" y2="1967.167" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-9" x="243.18" y="914.473" width="525" height="722" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur8" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur8" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient5" x1="2241.806" y1="2260.923" x2="2594.78" y2="2260.923" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-10" x="462.18" y="941.473" width="524" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur9" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur9" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient6" x1="2589.919" y1="1673.537" x2="2942.893" y2="1673.537" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-11" x="860.18" y="270.473" width="524" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur10" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur10" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient7" x1="2561.122" y1="1103.28" x2="2287.17" y2="1659.085" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-12" x="459.18" y="-44.527" width="525" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur11" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur11" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient8" x1="2389.835" y1="1784.939" x2="2742.81" y2="1784.939" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-13" x="631.18" y="397.473" width="524" height="723" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur result="blur12" stdDeviation="20.001"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur12" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-14" x="278.183" y="1004.476" width="154" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur13" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur13" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-15" x="193.183" y="334.476" width="153" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur14" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur14" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon points="408.059 745.812 279.598 745.812 554.505 144.279 682.966 144.279 408.059 745.812" fill="url(#linear-gradient)" filter="url(#drop-shadow-1)"/>
+  <polygon points="758.04 722.671 629.579 722.671 904.486 121.138 1032.947 121.138 758.04 722.671" fill="url(#linear-gradient1)" filter="url(#drop-shadow-2)"/>
+  <polygon points="145.692 932.244 17.231 932.244 292.138 330.711 420.599 330.711 145.692 932.244" fill="url(#linear-gradient2)" filter="url(#drop-shadow-3)"/>
+  <polygon points="212.111 1524.995 83.65 1524.995 358.557 923.462 487.019 923.462 212.111 1524.995" fill="url(#linear-gradient3)" filter="url(#drop-shadow-4)"/>
+  <line x1="382.647" y1="845.27" x2="514.21" y2="557.393" fill="none" filter="url(#drop-shadow-5)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="822.085" y1="677.628" x2="953.648" y2="389.751" fill="none" filter="url(#drop-shadow-6)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="818.657" y1="1338.283" x2="950.22" y2="1050.407" fill="none" filter="url(#drop-shadow-7)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="156.616" y1="1144.24" x2="288.178" y2="856.363" fill="none" filter="url(#drop-shadow-8)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  <polygon points="424.532 1568.39 296.071 1568.39 570.978 966.856 699.439 966.856 424.532 1568.39" fill="url(#linear-gradient4)" filter="url(#drop-shadow-9)"/>
+  <polygon points="643.05 1595.939 514.588 1595.939 789.495 994.405 917.957 994.405 643.05 1595.939" fill="url(#linear-gradient5)" filter="url(#drop-shadow-10)"/>
+  <polygon points="1040.862 924.693 912.401 924.693 1187.308 323.159 1315.769 323.159 1040.862 924.693" fill="url(#linear-gradient6)" filter="url(#drop-shadow-11)"/>
+  <polygon points="640.342 609.662 511.881 609.662 786.788 8.128 915.249 8.128 640.342 609.662" fill="url(#linear-gradient7)" filter="url(#drop-shadow-12)"/>
+  <polygon points="812.213 1051.999 683.752 1051.999 958.659 450.465 1087.12 450.465 812.213 1051.999" fill="url(#linear-gradient8)" filter="url(#drop-shadow-13)"/>
+  <line x1="288.26" y1="1301.48" x2="419.822" y2="1013.603" fill="none" filter="url(#drop-shadow-14)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="202.781" y1="631.518" x2="334.344" y2="343.642" fill="none" filter="url(#drop-shadow-15)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+</svg>
